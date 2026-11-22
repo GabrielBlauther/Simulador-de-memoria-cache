@@ -22,6 +22,7 @@ table{border-collapse:collapse;width:100%;margin:8pt 0;font-size:9pt}caption{mar
 <p>O menor tempo médio foi 4,0563 ns, obtido com cache de 8 KiB, blocos de 128 bytes, LRU e write-back, nas associatividades de 16, 32 e 64 vias. Todas atingiram 99,9141% e totalizaram 44 leituras e quatro escritas na memória principal. Entre as três, escolhe-se 16 vias por ser a menor associatividade com o mesmo desempenho simulado. O ensaio adota um tempo de consulta constante e não mede o custo físico da implementação.</p>
 <p>O mapeamento direto é reproduzido com associatividade 1, de modo que cada conjunto contém uma única linha. O mapeamento totalmente associativo é obtido igualando a associatividade ao número de linhas, o que reúne toda a cache em um único conjunto.</p>
 <p>O trabalho experimental consistiu em configurar as simulações, executar os ensaios e interpretar os resultados. Na análise da latência média, foi necessário considerar as escritas na memória principal em faltas com write-through e na descarga final de linhas modificadas com write-back.</p>
+<p><strong>Nota sobre o uso de IA.</strong> Foi utilizada inteligência artificial como apoio à formatação do relatório e à revisão ortográfica do texto.</p>
 <h2>8. Bibliografia</h2>
 <ol>
 <li id="ref-1">TANENBAUM, Andrew Stuart; AUSTIN, Todd. <cite>Organização estruturada de computadores</cite>. 6. ed. São Paulo: Pearson, 2013. E-book. Seção 2.2.5.</li>
