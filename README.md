@@ -1,5 +1,7 @@
 # Simulador de memória cache
 
+**Autores:** Pedro Henrique Grando e Gabriel De Souza Blauther
+
 Simulador em C para a disciplina de Fundamentos de Arquitetura de Computadores. O programa lê um traço de acessos à memória e calcula a taxa de acertos, o tempo médio de acesso e o número de leituras e escritas na memória principal.
 
 ## Compilar e executar
